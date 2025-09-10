@@ -1,7 +1,4 @@
-﻿Console.WriteLine("zadaj svoje meno");
-string name = Console.ReadLine();
-Console.WriteLine("zadaj svoj vek");
-int age = int.Parse(Console.ReadLine());
-Console.WriteLine("zadaj svoju vysku");
-decimal height = decimal.Parse(Console.ReadLine());
-Console.WriteLine($"ahoj tvoje meno je {name} a mas {age} rokov");
+﻿int age = 14;
+string name= "John";
+
+Console.WriteLine($"Hello my name is {name} and i am  {age} years old ");
