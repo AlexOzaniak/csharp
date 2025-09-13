@@ -20,3 +20,4 @@ if(cislo <30)
 Console.WriteLine ($"cislo je {cislo} text je {text} hodnota true or false je {pravda} {cas} hodnota pi je {pi} ");
 
 
+
