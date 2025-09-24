@@ -1,23 +1,10 @@
-﻿
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Zadej cislo:");
-int cislo = int.Parse(Console.ReadLine());
-
-string text = "zdravicko";
-
-bool pravda = true;
-
-    
-DateTime cas = DateTime.Now;
-var pi = 3.14;
-if(cislo <30)
-{
-    Console.WriteLine("zadane cislo je moc male prosim zadaj cislo ktore je vacsie ako 30");
-  int number = int.Parse(Console.ReadLine());
-    cislo = number;
-
-}
-Console.WriteLine ($"cislo je {cislo} text je {text} hodnota true or false je {pravda} {cas} hodnota pi je {pi} ");
-
-
-
+﻿int cislo = 10;
+string text = "test1";
+char znak = 'a';
+bool mojahodnota = true; 
+decimal test = 10.5m;
+DateTime dnesnydatum = DateTime.Now;
+int sucet = cislo + 67;
+float  desatinne  = 1.23f;
+var meno = "Alex";
+Console.WriteLine($"cislo JE {cislo.ToString("000")} TEXT JE {text} znak je {znak} hodnota bool je {mojahodnota} decimal je {test} dnesny datum je {dnesnydatum.ToString("yyyy-MM-dd")} sucet cisla {cislo} a 67 je : {sucet} Desatinne cislo je {desatinne} meno je {meno}");
