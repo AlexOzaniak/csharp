@@ -34,7 +34,7 @@ public class Calculator
     /// </summary>
     public double Divide(int a, int b)
     {
-        return (double)a / b;
+        return (double) a / b;
 
     }
 
